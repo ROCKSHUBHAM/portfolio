@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
 import Home from './Home';
@@ -11,15 +11,19 @@ function App() {
   return (
     <>
       <div className="vh-100 ">
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home}></Route>
-          <Route exact path="/about" component={About}></Route>
-          <Route exact path="/skills" component={Skills}></Route>
-          <Route exact path="/project" component={Project}></Route>
-          <Route exact path="/services" component={Services}></Route>
-          <Route exact path="/contact" component={Contact}></Route>
-        </Switch>
+        <HashRouter basename={process.env.PUBLIC_URL}>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/about" component={About}></Route>
+            <Route exact path="/skills" component={Skills}></Route>
+            <Route exact path="/project" component={Project}></Route>
+            <Route exact path="/services" component={Services}></Route>
+            <Route exact path="/contact" component={Contact}></Route>
+          </Switch>
+        </HashRouter>
+
+
       </div>
 
     </>
