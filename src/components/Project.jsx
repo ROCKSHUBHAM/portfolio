@@ -8,10 +8,10 @@ import img4 from '../Images/img4.png';
 const Project = () => {
     return (
         <>
-            <div className="container h-100 pt-3">
+            <div className="container h-100 pt-5">
                 <div className="row mt-2">
-                    <div className="col-sm-4 my-2">
-                        <div className="card border-1">
+                    <div className="col-sm-4 my-1">
+                        <div className="card border-1 ">
                             <img src={`${img1}`} alt="" className="img-fluid" />
                             <div className="card-footer">
                                 <div className="card-title d-flex justify-content-between">
@@ -21,7 +21,7 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-4 my-2">
+                    <div className="col-sm-4 my-1">
                         <div className="card border-1">
                             <img src={`${img2}`} alt="" className="img-fluid" />
                             <div className="card-footer">
@@ -32,7 +32,7 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-4 my-2">
+                    <div className="col-sm-4 my-1">
                         <div className="card border-1">
                             <img src={`${img3}`} alt="" className="img-fluid" />
                             <div className="card-footer">
@@ -43,7 +43,7 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-4 my-2">
+                    <div className="col-sm-4 my-1">
                         <div className="card border-1">
                             <img src={`${img4}`} alt="" className="img-fluid" />
                             <div className="card-footer">

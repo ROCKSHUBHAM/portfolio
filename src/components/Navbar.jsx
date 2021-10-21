@@ -4,16 +4,16 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light w-100">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light w-100 fixed-top">
                 <div className="container-fluid">
-                    <span className="navbar-brand">Portfolio</span>
+                    <NavLink className="navbar-brand" exact to="/">Portfolio</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
                         <ul className="navbar-nav  mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink  className="nav-link active" aria-current="page"  exact to="/">Home</NavLink>
+                                <NavLink className="nav-link active" aria-current="page" exact to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link" exact to="/about">About</NavLink>

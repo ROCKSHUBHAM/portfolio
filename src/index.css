@@ -21,6 +21,10 @@ code {
 }
 
 /* home */
+.header{
+  position:absolute !important;
+  z-index: 999999 !important;
+}
 .home{
   display: flex;
   align-items: center;

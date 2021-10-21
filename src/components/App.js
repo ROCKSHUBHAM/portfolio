@@ -10,7 +10,7 @@ import Skills from './Skills';
 function App() {
   return (
     <>
-      <div className="vh-100">
+      <div className="vh-100 ">
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home}></Route>
