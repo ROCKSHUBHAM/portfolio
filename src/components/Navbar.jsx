@@ -9,9 +9,9 @@ const Navbar = () => {
       <section className="navbar-bg">
         <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container">
-            <a class="navbar-brand" href="/">
+            <span class="navbar-brand" >
               PORTFOLIO
-            </a>
+            </span>
             <button
               class="navbar-toggler"
               type="button"
