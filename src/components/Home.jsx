@@ -5,7 +5,7 @@ import Bgimg from '../Images/bgimg3.png';
 const Home = () => {
     return (
         <>
-            <div className="container h-100 align-content-center home" style={{backgroundImage:`url(${Bgimg})`}}>
+            <div className="container h-100 align-content-center home " style={{backgroundImage:`url(${Bgimg})`}}>
                 <div className="text-capitalize">
                     <p>Hello ,my name is</p>
                     <h1>shubham patidar</h1>

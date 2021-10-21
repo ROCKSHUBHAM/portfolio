@@ -9,8 +9,8 @@ const Skills = () => {
                         <span>HTML</span>
                         <span>85%</span>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style={{ width: '85%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: '85%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div className="my-3">
@@ -18,8 +18,8 @@ const Skills = () => {
                         <span>CSS</span>
                         <span>90%</span>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style={{ width: '90%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: '90%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div className="my-3">
@@ -27,8 +27,8 @@ const Skills = () => {
                         <span>Python</span>
                         <span>85%</span>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style={{ width: '85%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: '85%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div className="my-3">
@@ -36,8 +36,8 @@ const Skills = () => {
                         <span>Javascript</span>
                         <span>75%</span>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style={{ width: '75%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: '75%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div className="my-3">
@@ -45,8 +45,8 @@ const Skills = () => {
                         <span>Jquery</span>
                         <span>80%</span>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style={{ width: '80%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: '80%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div className="my-3">
@@ -54,8 +54,8 @@ const Skills = () => {
                         <span>React js</span>
                         <span>75%</span>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style={{ width: '75%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: '75%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div className="my-3">
@@ -63,8 +63,8 @@ const Skills = () => {
                         <span>MySQL</span>
                         <span>90%</span>
                     </div>
-                    <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style={{ width: '90%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div className="progress">
+                        <div className="progress-bar bg-primary" role="progressbar" style={{ width: '90%' }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
